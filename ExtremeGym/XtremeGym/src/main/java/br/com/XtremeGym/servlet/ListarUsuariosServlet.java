@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet("/achar-todos-usuarios")
+@WebServlet({"/achar-todos-usuarios", "/admin/achar-todos-usuarios"})
 public class ListarUsuariosServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -19,6 +19,6 @@ public class ListarUsuariosServlet extends HttpServlet {
 
         req.setAttribute("user", todosUsuarios);
 
-        req.getRequestDispatcher("dashboard.jsp").forward(req, resp);
+        req.getRequestDispatcher("areaAdm/telaPesquisar.jsp").forward(req, resp);
     }
 }

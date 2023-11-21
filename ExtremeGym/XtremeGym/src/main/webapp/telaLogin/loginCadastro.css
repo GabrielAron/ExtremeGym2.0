@@ -7,7 +7,7 @@
 body {
     background: #7b7893;
     backdrop-filter: brightness(70%) blur(0.2rem);
-    background-image: url("academia\ xtreme.jpg");
+    background-image: url("../imagens/academia_xtreme.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

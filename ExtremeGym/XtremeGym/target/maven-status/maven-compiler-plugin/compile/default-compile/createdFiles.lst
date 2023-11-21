@@ -1,5 +1,9 @@
-br\com\XtremeGym\dao\UserDao.class
+br\com\XtremeGym\servlet\DeletarUsuarioServlet.class
 br\com\XtremeGym\servlet\ListarUsuariosServlet.class
+br\com\XtremeGym\servlet\LoginServlet.class
+br\com\XtremeGym\servlet\LogoutServlet.class
 br\com\XtremeGym\model\User.class
+br\com\XtremeGym\config\ConnectionPoolConfig.class
+br\com\XtremeGym\filter\AuthenticationFilter.class
+br\com\XtremeGym\dao\UserDao.class
 br\com\XtremeGym\servlet\CreateUserServlet.class
-br\com\XtremeGym\servlet\VariavelTreinosServlet.class

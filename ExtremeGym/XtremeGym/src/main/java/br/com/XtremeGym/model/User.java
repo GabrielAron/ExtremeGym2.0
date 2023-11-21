@@ -5,9 +5,9 @@ public class User {
     private String cpf;
     private String email;
     private String Senha;
-    private int id;
+    private String id;
 
-    public User(String name, String cpf, String email, String senha, int id) {
+    public User(String name, String cpf, String email, String senha, String id) {
         this.nome = name;
         this.cpf = cpf;
         this.email = email;
@@ -22,11 +22,19 @@ public class User {
         Senha = senha;
     }
 
+    public User(String email, String senha) {
+        this.email = email;
+        Senha = senha;
+    }
+
+
+
+
     public String getNome() {
         return nome;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 

@@ -1,5 +1,9 @@
-C:\Users\Gabriel Aron\Desktop\ExtremeGym\XtremeGym\src\main\java\br\com\XtremeGym\model\User.java
-C:\Users\Gabriel Aron\Desktop\ExtremeGym\XtremeGym\src\main\java\br\com\XtremeGym\dao\UserDao.java
-C:\Users\Gabriel Aron\Desktop\ExtremeGym\XtremeGym\src\main\java\br\com\XtremeGym\servlet\VariavelTreinosServlet.java
-C:\Users\Gabriel Aron\Desktop\ExtremeGym\XtremeGym\src\main\java\br\com\XtremeGym\servlet\ListarUsuariosServlet.java
-C:\Users\Gabriel Aron\Desktop\ExtremeGym\XtremeGym\src\main\java\br\com\XtremeGym\servlet\CreateUserServlet.java
+C:\Users\LENOVO\IdeaProjects\ExtremeGym2.0\ExtremeGym\XtremeGym\src\main\java\br\com\XtremeGym\servlet\LoginServlet.java
+C:\Users\LENOVO\IdeaProjects\ExtremeGym2.0\ExtremeGym\XtremeGym\src\main\java\br\com\XtremeGym\servlet\LogoutServlet.java
+C:\Users\LENOVO\IdeaProjects\ExtremeGym2.0\ExtremeGym\XtremeGym\src\main\java\br\com\XtremeGym\dao\UserDao.java
+C:\Users\LENOVO\IdeaProjects\ExtremeGym2.0\ExtremeGym\XtremeGym\src\main\java\br\com\XtremeGym\servlet\CreateUserServlet.java
+C:\Users\LENOVO\IdeaProjects\ExtremeGym2.0\ExtremeGym\XtremeGym\src\main\java\br\com\XtremeGym\config\ConnectionPoolConfig.java
+C:\Users\LENOVO\IdeaProjects\ExtremeGym2.0\ExtremeGym\XtremeGym\src\main\java\br\com\XtremeGym\filter\AuthenticationFilter.java
+C:\Users\LENOVO\IdeaProjects\ExtremeGym2.0\ExtremeGym\XtremeGym\src\main\java\br\com\XtremeGym\servlet\DeletarUsuarioServlet.java
+C:\Users\LENOVO\IdeaProjects\ExtremeGym2.0\ExtremeGym\XtremeGym\src\main\java\br\com\XtremeGym\servlet\ListarUsuariosServlet.java
+C:\Users\LENOVO\IdeaProjects\ExtremeGym2.0\ExtremeGym\XtremeGym\src\main\java\br\com\XtremeGym\model\User.java
