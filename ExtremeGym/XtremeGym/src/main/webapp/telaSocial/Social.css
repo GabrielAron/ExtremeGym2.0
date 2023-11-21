@@ -1,0 +1,41 @@
+
+#Recursos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+#Recursos figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    text-align: center;
+    flex-basis: calc(25% - 40px);
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#Recursos figure i {
+    font-size: 2.5rem;
+    color: #black;
+    margin-bottom: 10px;
+}
+
+#Recursos figure h4 {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#Recursos figure div {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #666;
+    word-wrap: break-word;
+}

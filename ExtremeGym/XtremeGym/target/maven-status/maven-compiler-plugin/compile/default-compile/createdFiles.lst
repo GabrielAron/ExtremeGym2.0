@@ -1,0 +1,5 @@
+br\com\XtremeGym\dao\UserDao.class
+br\com\XtremeGym\servlet\ListarUsuariosServlet.class
+br\com\XtremeGym\model\User.class
+br\com\XtremeGym\servlet\CreateUserServlet.class
+br\com\XtremeGym\servlet\VariavelTreinosServlet.class

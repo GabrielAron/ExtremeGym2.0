@@ -1,0 +1,58 @@
+.tituloPrincipal{
+text-align: center;
+font-size: 45px;
+font-family: 'Lexend Deca', sans-serif;
+}
+.letras{
+padding-top:15px;
+padding:10px;
+}
+.textos{
+color: #939393;
+text-align: center;
+font-size: 18px;
+font-family: 'Muli', sans-serif;
+
+}
+.titulos{
+text-align: center;
+font-size: 20px;
+font-family: 'Lexend Deca', sans-serif;
+
+}
+
+
+.Imagens{
+display:block;
+margin-left: 90px;
+height:43px;
+width:43px;
+}
+
+
+.Produtos{
+display: flex;
+padding: 10px;
+margin-left: 350px;
+
+
+}
+.Quadros{
+height: 274px;
+max-width:235px;
+padding: 10px;
+
+}
+.Quadro2{
+ height: 274px;
+ max-width:235px;
+ padding: 10px;
+ margin-left: 20px;
+
+ }
+.Imagem2{
+display:block;
+margin-left: 90px;
+height:48px;
+width:48px;
+}

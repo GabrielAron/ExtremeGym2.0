@@ -1,0 +1,25 @@
+#Quemsomos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top:10px;
+}
+
+#Quemsomos h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#Quem_somos_texto {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #666;
+    text-align: justify;
+}

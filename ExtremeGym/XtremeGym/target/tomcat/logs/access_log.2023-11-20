@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [20/Nov/2023:22:19:02 -0300] "GET / HTTP/1.1" 200 20715 http-bio-8080-exec-1 24
+0:0:0:0:0:0:0:1 - - [20/Nov/2023:22:19:02 -0300] "GET /style.css HTTP/1.1" 200 3169 http-bio-8080-exec-3 3
+0:0:0:0:0:0:0:1 - - [20/Nov/2023:22:19:02 -0300] "GET /telaServicos/Servi%C3%A7os.css HTTP/1.1" 404 1011 http-bio-8080-exec-2 2
+0:0:0:0:0:0:0:1 - - [20/Nov/2023:22:19:02 -0300] "GET /telaFaleConosco/Fale.css HTTP/1.1" 200 2706 http-bio-8080-exec-5 4
+0:0:0:0:0:0:0:1 - - [20/Nov/2023:22:19:02 -0300] "GET /menu.js HTTP/1.1" 200 - http-bio-8080-exec-7 3
+0:0:0:0:0:0:0:1 - - [20/Nov/2023:22:19:02 -0300] "GET /telaSobre/QuemSomos.css HTTP/1.1" 200 455 http-bio-8080-exec-4 3
+0:0:0:0:0:0:0:1 - - [20/Nov/2023:22:19:02 -0300] "GET /telaSocial/Social.css HTTP/1.1" 200 766 http-bio-8080-exec-6 4
+0:0:0:0:0:0:0:1 - - [20/Nov/2023:22:19:05 -0300] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-6 1
+0:0:0:0:0:0:0:1 - - [20/Nov/2023:22:27:00 -0300] "GET /telaLogin/loginCadastro.html HTTP/1.1" 200 3442 http-bio-8080-exec-1 2
+0:0:0:0:0:0:0:1 - - [20/Nov/2023:22:27:00 -0300] "GET /telaLogin/loginCadastro.css HTTP/1.1" 200 4569 http-bio-8080-exec-1 2
+0:0:0:0:0:0:0:1 - - [20/Nov/2023:22:27:00 -0300] "GET /telaLogin/loginCadastro.js HTTP/1.1" 200 1079 http-bio-8080-exec-1 2
+0:0:0:0:0:0:0:1 - - [20/Nov/2023:22:27:00 -0300] "GET /telaLogin/academia%20xtreme.jpg HTTP/1.1" 200 490856 http-bio-8080-exec-1 6
+0:0:0:0:0:0:0:1 - - [20/Nov/2023:22:35:10 -0300] "GET /telaServicos/Servi%C3%A7os.css HTTP/1.1" 404 1011 http-bio-8080-exec-6 1
