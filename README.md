@@ -19,17 +19,17 @@ Escopo Projeto Integrador
 
   # Protótipo do Site
 
-  ![Esta é a viewpoint de nosso site](Imagens/inicio.png)
-  ![Quem somos](Imagens/QuemSomos.png)
-  ![Serviços oferecidos pela academia](Imagens/Serviços.png)
-  ![Galeria de fotos da academia](Imagens/Galeria.png)
-  ![Area de Avaliação dos clientes](Imagens/Avaliações.png)
-  ![Recursos da academia](Imagens/Recursos.png)
-  ![Fale conosco](Imagens/FaleConosco.png)
-  ![Treinos](Imagens/Treinos.1.jpg)
-  ![Treinos](Imagens/Treinos.2.jpg)
-  ![Tela de Login](Imagens/login.png)
-  ![Cadastrar-se](Imagens/Cadastro.png)
+  ![Esta é a viewpoint de nosso site](ExtremeGym/Imagens/inicio.png)
+  ![Quem somos](ExtremeGym/Imagens/QuemSomos.png)
+  ![Serviços oferecidos pela academia](ExtremeGym/Imagens/Serviços.png)
+  ![Galeria de fotos da academia](ExtremeGym/Imagens/Galeria.png)
+  ![Area de Avaliação dos clientes](ExtremeGym/Imagens/Avaliações.png)
+  ![Recursos da academia](ExtremeGym/Imagens/Recursos.png)
+  ![Fale conosco](ExtremeGym/Imagens/FaleConosco.png)
+  ![Treinos](ExtremeGym/Imagens/Treinos.1.jpg)
+  ![Treinos](ExtremeGym/Imagens/Treinos.2.jpg)
+  ![Tela de Login](ExtremeGym/Imagens/login.png)
+  ![Cadastrar-se](ExtremeGym/Imagens/Cadastro.png)
 
 
 # SQL
