@@ -15,7 +15,7 @@ Escopo Projeto Integrador
 - Veja nossas unidades
 
   # MER
-  ![Aqui está o Nosso Modelo Entidade Relacionamento](Imagens/DiagramaDeUso.PNG)
+  ![Aqui está o Nosso Modelo Entidade Relacionamento](ExtremeGym/Imagens/DiagramaDeUso.PNG)
 
   # Protótipo do Site
 
