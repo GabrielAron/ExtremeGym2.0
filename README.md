@@ -26,7 +26,7 @@ Escopo Projeto Integrador
   ![Area de Avaliação dos clientes](ExtremeGym/Imagens/Avaliações.png)
   ![Recursos da academia](ExtremeGym/Imagens/Recursos.png)
   ![Fale conosco](ExtremeGym/Imagens/FaleConosco.png)
-  ![Treinos](ExtremeGym/Imagens/treinos.jpg)
+  ![Treinos](ExtremeGym/Imagens/treinos.png)
   ![Tela de Login](ExtremeGym/Imagens/login.png)
   ![Cadastrar-se](ExtremeGym/Imagens/Cadastro.png)
   ![Tela administração - 1](ExtremeGym/Imagens/ADM1.png)
