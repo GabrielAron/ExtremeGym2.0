@@ -26,11 +26,13 @@ Escopo Projeto Integrador
   ![Area de Avaliação dos clientes](ExtremeGym/Imagens/Avaliações.png)
   ![Recursos da academia](ExtremeGym/Imagens/Recursos.png)
   ![Fale conosco](ExtremeGym/Imagens/FaleConosco.png)
-  ![Treinos](ExtremeGym/Imagens/Treinos.1.jpg)
-  ![Treinos](ExtremeGym/Imagens/Treinos.2.jpg)
+  ![Treinos](ExtremeGym/Imagens/treinos.jpg)
   ![Tela de Login](ExtremeGym/Imagens/login.png)
   ![Cadastrar-se](ExtremeGym/Imagens/Cadastro.png)
-
+  ![Tela administração - 1](ExtremeGym/Imagens/ADM1.png)
+  ![Tela administração - 2](ExtremeGym/Imagens/Adm2.png)
+  ![Tela administração - 3](ExtremeGym/Imagens/Adm3.png)
+	
 
 # SQL
 create table usuario(
