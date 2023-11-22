@@ -43,7 +43,7 @@ public class LoginServlet extends HttpServlet {
             case 2: //É ADM
                 req.getSession().setAttribute("loggedUser", email);
 
-                resp.sendRedirect("/achar-todos-usuarios");
+                req.getRequestDispatcher("Escolha.jsp").forward(req, resp);
                 break;
 
         }

@@ -39,7 +39,7 @@
                         <li><a class="hover-1" href="#Avaliacoes_Clientes">Avaliações</a></li>
                         <li><a class="hover-1" href="#Recursos">Recursos</a></li>
                         <li><a class="hover-1" href="#Fale conosco">Fale conosco</a></li>
-                        <li><a class="hover-1" href="../telaTreinos/Treinos.jsp">Treinos</a></li>
+                        <li><a class="hover-1" href="/Sortear-Treino">Treinos</a></li>
                     </ul>
                     <div id="Perfil">
                         <i id="iconeperfil" class="bi bi-person-circle"></i>

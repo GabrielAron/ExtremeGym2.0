@@ -42,7 +42,6 @@
       <input type="cpf" onkeyup="formataValorCpf(this)" name="User-cpf" id="User-cpf" value="${param.cpf}" placeholder="CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" maxlength=14 />
       <input type="email" name="User-email" id="User-email" placeholder="Email" value="${param.email}" />
       <input type="password" name="User-senha" id="User-senha" placeholder="Senha" value="${param.senha}"/>
-      <input type="password" name="User-senhaConfirma" id="User-senhaConfirma" placeholder="Confirmar senha" value="${param.senhaConfirma}"/>
       <input type="hidden" name="User-id" id="User-id" value="${param.id}"/>
       <button type="submit">Cadastrar</button>
 
@@ -57,8 +56,44 @@
             <input type="email" name="User-login-email" placeholder="Email" />
             <input type="password" name="User-login-senha" placeholder="Senha" />
 
-            <button>Entrar</button>
+            <button id="btnAbrirPopup">Entrar</button>
         </form>
+
+        <div id="meuPopup" class="fundo">
+          <div class="pop-up">
+            <h2>Escolha uma opção</h2>
+            <p>Você gostaria de ir para a área de alteração de treinos ou para a de alteração de usuários?</p>
+            <button onclick="location.href='/listar-todos-treinos'">Alteração de Treinos</button>
+            <button onclick="location.href='/achar-todos-usuarios'">Alteração de Usuários</button>
+            <button id="btnFecharPopup">Fechar</button>
+          </div>
+        </div>
+
+        <script>
+
+        var popup = document.getElementById("meuPopup");
+
+
+        var btnAbrirPopup = document.getElementById("btnAbrirPopup");
+
+
+        var btnFecharPopup = document.getElementById("btnFecharPopup");
+
+
+        btnAbrirPopup.onclick = function() {
+          popup.style.display = "block";
+        }
+
+        btnFecharPopup.onclick = function() {
+          popup.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+          if (event.target == popup) {
+            popup.style.display = "none";
+          }
+        }
+        </script>
   </div>
   <div class="overlay-container">
     <div class="overlay">

@@ -1,4 +1,4 @@
-package br.com.XtremeGym.servlet;
+package br.com.XtremeGym.servlet.User;
 
 import br.com.XtremeGym.dao.UserDao;
 import br.com.XtremeGym.model.User;
@@ -18,7 +18,6 @@ public class CreateUserServlet extends HttpServlet {
         String userCpf=req.getParameter("User-cpf");
         String userEmail=req.getParameter("User-email");
         String userSenha=req.getParameter("User-senha");
-        String userCofirmaSenha=req.getParameter("User-senhaConfirma");
         String userId=req.getParameter("User-id");
 
 
@@ -39,7 +38,6 @@ public class CreateUserServlet extends HttpServlet {
             }
         }
 
-        //resp.sendRedirect("/achar-todos-usuarios");
 
     }
 }

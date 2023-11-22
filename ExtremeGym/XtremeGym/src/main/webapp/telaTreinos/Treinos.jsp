@@ -1,11 +1,113 @@
 <!DOCTYPE html>
 
+<html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <head>
 
     <meta charset="UTF-8">
-    <title>imundice</title>
-    <script src="Treinos.js"></script>
-    <link rel="stylesheet" href="Treinos.css">
+    <title>Treinos</title>
+
+    <style>
+        body {
+          font-family: 'Lexend Deca', sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color:#f1ecf1;
+        }
+
+        header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 20px;
+        }
+
+        #LogoSite {
+          margin-left: 20px;
+          position: absolute; /* Posiciona o logo no canto superior esquerdo */
+          top: 0;
+          left: 0;
+        }
+
+        #LogoSite img {
+          width: 90%; /* Ajuste o valor conforme necessário */
+          max-width: 200px; /* Defina um limite máximo para a largura */
+
+        }
+
+        #Menu {
+          margin-right: 20px;
+        }
+
+        #Menu a {
+          margin-left: 10px;
+          text-decoration: none;
+          color: black;
+        }
+
+        h1 {
+          text-align: center;
+        }
+
+        .container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+
+        figure {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border: none;
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+          padding: 20px;
+          width: calc(33.33% - 20px); /* Faz com que haja 3 cards por linha */
+          margin: 10px;
+        }
+
+        figcaption {
+          margin-top: 10px;
+          text-align: left;
+        }
+
+        button {
+          margin-top: auto;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        #TxtContadorDeTreinos,
+        #ContadorRealDetreinos {
+          text-align: center;
+          margin-top: 20px;
+        }
+
+        li {
+          list-style-type: none;
+        }
+
+        /* Ajusta o layout dos cards para dispositivos menores */
+        @media screen and (max-width: 768px) {
+          figure {
+            width: calc(50% - 20px); /* Faz com que haja 2 cards por linha em dispositivos menores */
+          }
+        }
+
+        #inicio {
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          width: 50px;
+          height: 50px;
+        }
+
+    </style>
+
+
+
 </head>
 <header>
 <div id="LogoSite">
@@ -23,83 +125,118 @@
 <div>
    <div class="container">
     <figure>
-        <img src="imagem do treinos A">
-        <figcaption>Segunda-Feira</figcaption>
-        <figcaption>Peito</figcaption>
-
-        <figcaption>
-            <li>Supino reto: 4 séries de 8-10 repetições</li>
-            <li>Supino inclinado com halteres: 3 séries de 10-12 repetições</li>
-            <li>Crucifixo com halteres: 3 séries de 12-15 repetições</li>
-            <li>Flexões: 3 séries até a falha muscular</li>
-
-
-        </figcaption>
+        <div>
+            <table>
+                <figcaption>Segunda-Feira</figcaption>
+                <tr>
+                    <th>Nome</th>
+                    <th>Repetições</th>
+                    <th>Séries</th>
+                </tr>
+                <c:forEach var="peitos" items="${peitos}">
+                    <tr>
+                        <td>${peitos.nome} </td>
+                        <td>${peitos.repeticao} </td>
+                        <td>${peitos.serie} </td>
+                    </tr>
+                </c:forEach>
+            </table>
+        </div>
     </figure>
     <figure>
-        <img src="imagem do treinos A">
-        <figcaption>Terça-Feira</figcaption>
-        <figcaption>Costas</figcaption>
-        <figcaption>
-            <li>Levantamento terra: 4 séries de 6-8 repetições</li>
-            <li>Barra fixa: 3 séries de 8-10 repetições</li>
-            <li>Remada com halteres: 3 séries de 10-12 repetições</li>
-            <li>Pulldown frontal: 3 séries de 12-15 repetições</li>
-
-
-        </figcaption>
+        <div>
+            <table>
+                <figcaption>Terça-Feira</figcaption>
+                <tr>
+                    <th>Nome</th>
+                    <th>Repetições</th>
+                    <th>Séries</th>
+                </tr>
+                <c:forEach var="costas" items="${costas}">
+                    <tr>
+                        <td>${costas.nome} </td>
+                        <td>${costas.repeticao} </td>
+                        <td>${costas.serie} </td>
+                    </tr>
+                </c:forEach>
+            </table>
+        </div>
     </figure>
     <figure>
-        <img src="imagem do treinos A">
-        <figcaption>Quarta-Feira</figcaption>
-        <figcaption>Perna</figcaption>
-        <figcaption>
-            <li>Agachamento livre: 4 séries de 8-10 repetições</li>
-            <li>Leg press: 3 séries de 10-12 repetições</li>
-            <li>Extensão de pernas: 3 séries de 12-15 repetições</li>
-            <li>Flexão de pernas: 3 séries de 12-15 repetições</li>
-
-
-        </figcaption>
+        <div>
+            <table>
+                <figcaption>Quarta-Feira</figcaption>
+                <tr>
+                    <th>Nome</th>
+                    <th>Repetições</th>
+                    <th>Séries</th>
+                </tr>
+                <c:forEach var="ombro" items="${ombro}">
+                    <tr>
+                        <td>${ombro.nome} </td>
+                        <td>${ombro.repeticao} </td>
+                        <td>${ombro.serie} </td>
+                    </tr>
+                </c:forEach>
+            </table>
+        </div>
     </figure>
     <figure>
-        <img src="imagem do treinos A">
-        <figcaption>Quinta-Feira</figcaption>
-        <figcaption>Ombro</figcaption>
-        <figcaption>
-            <li>Desenvolvimento militar com barra: 4 séries de 8-10 repetições</li>
-            <li>Elevação lateral com halteres: 3 séries de 10-12 repetições</li>
-            <li>Desenvolvimento frontal com halteres: 3 séries de 10-12 repetições</li>
-            <li>Remada alta: 3 séries de 12-15 repetições</li>
-
-
-        </figcaption>
+        <div>
+            <table>
+                <figcaption>Quinta-Feira</figcaption>
+                <tr>
+                    <th>Nome</th>
+                    <th>Repetições</th>
+                    <th>Séries</th>
+                </tr>
+                <c:forEach var="biceps" items="${biceps}">
+                    <tr>
+                        <td>${biceps.nome} </td>
+                        <td>${biceps.repeticao} </td>
+                        <td>${biceps.serie} </td>
+                    </tr>
+                </c:forEach>
+            </table>
+        </div>
     </figure>
     <figure>
-        <img src="imagem do treinos A">
-        <figcaption>Sexte-Feira</figcaption>
-        <figcaption>Biceps/triceps</figcaption>
-        <figcaption>
-            <li>Rosca direta com barra: 3 séries de 8-10 repetições</li>
-            <li>Rosca alternada com halteres: 3 séries de 10-12 repetições</li>
-            <li>Tríceps pulley: 3 séries de 10-12 repetições</li>
-            <li>Tríceps francês com halteres: 3 séries de 12-15 repetições</li>
-
-
-        </figcaption>
+        <div>
+            <table>
+                <figcaption>Sexta-Feira</figcaption>
+                <tr>
+                    <th>Nome</th>
+                    <th>Repetições</th>
+                    <th>Séries</th>
+                </tr>
+                <c:forEach var="core" items="${core}">
+                    <tr>
+                        <td>${core.nome} </td>
+                        <td>${core.repeticao} </td>
+                        <td>${core.serie} </td>
+                    </tr>
+                </c:forEach>
+            </table>
+        </div>
     </figure>
     <figure>
-        <img src="imagem do treinos A">
-        <figcaption>Sábado</figcaption>
-        <figcaption>Core</figcaption>
-        <figcaption>
-            <li>Prancha: 3 séries de 1 minuto</li>
-            <li>Crunch abdominal: 3 séries de 15-20 repetições</li>
-            <li>Levantamento de pernas suspenso: 3 séries de 12-15 repetições</li>
-            <li>Russian twist com bola medicinal: 3 séries de 12-15 repetições</li>
-
-
-        </figcaption>
+        <div>
+            <table>
+                <figcaption>Sexta-Feira</figcaption>
+                <tr>
+                    <th>Nome</th>
+                    <th>Repetições</th>
+                    <th>Séries</th>
+                </tr>
+                <c:forEach var="perna" items="${perna}">
+                    <tr>
+                        <td>${perna.nome} </td>
+                        <td>${perna.repeticao} </td>
+                        <td>${perna.serie} </td>
+                    </tr>
+                </c:forEach>
+            </table>
+        </div>
     </figure>
    </div>
 </div>

@@ -1,4 +1,4 @@
-package br.com.XtremeGym.servlet;
+package br.com.XtremeGym.servlet.User;
 
 import br.com.XtremeGym.dao.UserDao;
 

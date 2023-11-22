@@ -48,7 +48,7 @@ create table exercicio(
     repeticao int
 );
 
-create table treino(
+create table exercicio(
 	id int unique auto_increment primary key,
 	nome Varchar(30),
     fkExercicios int,
